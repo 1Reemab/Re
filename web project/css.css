@@ -1,0 +1,217 @@
+
+html{background-image: url(TOP.jpg)}
+
+body,input#submit,input#Reset,button{font-family: cursive;}
+
+header { height: 340px; background-image: url(b.jpg)}
+
+* { text-decoration: none;
+
+
+
+
+}
+
+h1 { height: 150px; margin: 0px; font-size: 4.5em; color: rosybrown; text-align: center; padding-top: 3%}
+
+form h2 { height: 100px; margin: 0px; font-size: 2.5em; color: rosybrown; text-align: center}
+
+footer , nav { clear: both;
+               background-color:rosybrown; 
+               width: 100%;
+               height: 33px; 
+               color: whitesmoke;
+               border-radius: 6px;}
+
+aside {
+      width: 17%; 
+      float: right;
+      margin-top: 17%;}
+
+aside div ul {list-style: none;}
+
+aside div ul a {display: block;
+                padding: 10px; 
+                border-bottom: 1px solid lightgrey;
+                border-left:  solid lightgrey;}
+
+section.vid2 h3 ,section.art article h3,form h2 , h2.qh{color: rosybrown; }
+
+p ,h3 ,h4 {color:dimgrey; }
+
+footer p{color: whitesmoke ;margin-top: 0.1%;}
+
+h2{color:dimgray; text-align: center;}
+   
+img {width: 380px; height:280px;  }
+
+figure {float: left;}
+
+
+aside  div  a:hover {color:darkgray;}
+
+aside  div  a {color: rosybrown;}
+
+nav {
+    width: 100%;
+    height: 40px;}
+
+ nav > div { 
+     float: left;  
+     width: 14.28%;
+     height:100%;
+     position: relative;
+}
+
+ nav > div > a {
+    text-align: center;
+    height: 100%;
+    display: block;
+    line-height: 50px;
+    color: whitesmoke;
+     
+}
+
+ nav  div:hover a {
+     background-color:darkgray;
+     border-radius: 6px;
+}
+
+ nav div  div {
+     display: none;
+     position: absolute;
+     padding: 10px ; 
+}
+
+nav  div:hover div { display:block; }
+
+ nav  div  div a {
+  display:block;
+  float: left;
+  padding: 8px 10px;
+  margin: 2%;
+  text-align: center;
+  background-color:darkgray;
+  color: whitesmoke;
+  border-radius: 6px;
+}
+
+nav  div  div  a:hover { background-color:rosybrown;}
+nav  div  div  a {width: 100%;}
+
+section.art {
+    width:75%;
+    float: left;
+    margin-bottom: 3%;
+    margin-top: 7%;  
+}
+section.vid ,section.slides-books{ 
+    width:17%; 
+    float: left; 
+    margin-bottom: 3%; 
+    margin-top: 3%; 
+    margin-right: 4% ;
+}
+
+section.vid2 video , section.slides iframe ,section.books iframe
+{   width:940px;
+    height:600px;
+    margin-left:5%; margin-top: 5%;
+    display: none;   
+}
+
+ section  div {
+width: 65%;
+height: 10%
+}
+
+ section  div a {
+ text-align: center;
+  line-height: 50px;
+  color: whitesmoke; 
+  background-color:rosybrown;
+  border-radius: 6px;
+  display:block;
+  padding: 5px 10px;
+  margin: 2%;
+  width: 100%;
+}
+ section  div:hover  a {
+  background-color:darkgray;
+     border-radius: 6px;
+}
+firstParagraph {color:green;}
+secondParagraph{color:red;}
+div.QZ{margin-left: 12%;}
+
+button {
+  width: 400px;
+  background: rosybrown;
+  height: 33px;
+  border-radius: 15px;
+  border: 1p solid #999;
+  color: whitesmoke;
+  font-size: 0.80em; 
+}
+form , div.QZ {
+  
+  background-color:gainsboro;
+  width: 70%;
+  font-size: 22px;
+  font-weight: bold;
+  color: rosybrown;
+  border-radius: 10px;
+  padding: 40px;
+  border: 1px solid darkgray;   
+}
+
+form input {
+  border-radius: 7px;
+  width: 400px;
+  display: block;
+  border: 1px solid lightgray;
+  height: 40px;
+  
+}
+
+input#m ,input#f{
+display: inline;
+    width: 40px;
+}
+
+textarea#message {
+  display: block;
+  border-radius: 7px;
+    width: 400px;
+      }
+input#submit{
+    background-color:rosybrown;
+    color: whitesmoke;
+    font-size: 1em;}
+
+input#Reset{font-size: 0.80em; }
+
+table {
+    width: 100%;
+    padding: 60px;
+}
+ caption {
+     font-size:30px;
+     color:dimgray;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color:whitesmoke;
+}
+
+th { background-color:rosybrown;
+     color: white;
+}
+
+.t{
+width: 20%;
+text-align: left;
+}

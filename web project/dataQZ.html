@@ -1,0 +1,200 @@
+
+ 
+ <!DOCTYPE html> 
+<html lang ="en">
+        
+<head> 
+    <title>Data base2 Quiz</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head> 
+<body>
+     <header>
+
+     <h1>Data base2 Quiz</h1>
+
+   <h2>You can here start the quiz about this mterial.</h2>
+
+      </header>
+           <nav>
+    <div> <a href="Home%20page.html">Home</a>
+    
+    </div>
+     <div> <a href="Courses%20Information.html">Cuorses information</a>
+      
+    </div>
+    <div> <a >Wep application development1</a>
+      <div>  <a href="Wep%20Application%20Development1%20slides.html">Slides</a> <a href="Wep%20application%20development1%20videos.html">Video tutorual</a> <a href="WebQZ.html">Quizzes</a> <a href="Wep%20application%20development1%20books.html">Books</a> </div>   
+    </div> 
+          
+    <div> <a>System analysis and design </a>
+     <div> 
+        <a href="System%20analysis%20and%20design%20slides.html">Slides</a> <a href="System%20analysis%20and%20design%20videos.htm">Video tutorual</a> <a href="AnQZ.html">Quizzes</a> <a href="System%20analysis%20and%20design%20books.html">Books</a> </div>
+    </div>
+    <div> <a>Database2</a>
+     <div> <a href="Data%20base2%20slides.html">Slides</a> <a href="Data%20base2%20videos.html">Video tutorual</a> <a href="dataQZ.html">Quizzes</a> <a href="Data%20base2%20books.html">Books</a> </div>
+    </div>
+    <div> <a href="contact.html">Connect us</a>
+     
+    </div>
+          <div> <a href="About%20us.html">About us</a></div>
+
+  </nav>
+ <br/> <br/>
+       <div class="QZ">
+<h2 class="qh">Read the questions and choose the correct answer from the options:</h2>
+<br/>
+  <h4>1-Why might you convert an existing procedure into a function?</h4>
+    <input  type="radio"  name="firstQuestion" value="true"/>A procedure with only one OUT variable should always be a function. < <br/>
+    <input  type="radio" name="firstQuestion" value="false"/>A function is more efficient than a procedure.<br/>
+    <input  type="radio" name="firstQuestion" value="false"/>Functions can use default values in the parameters.
+
+  
+
+
+  <h4>2-The INTO clause of the SELECT statement?</h4>
+
+   <input  type="radio" name="secondQuestion" value="true"/>Can be used only when the SELECT statement returns at most one row. <br/>
+   <input  type="radio" name="secondQuestion" value="false"/>Does not generate an exception if no rows are returned<br/>
+   <input  type="radio" name="secondQuestion" value="false"/>	Is not a valid clause in PL/SQL.
+
+  
+
+
+  <h4>3-The common SQL*Plus command which causes the results of PL/SQL statements to be displayed is:</h4>
+
+   <input type="radio" name="thirdQuestion" value="false"/>SHOW ERRORS.  <br/>
+   <input type="radio" name="thirdQuestion" value="true"/>SET SERVEROUTPUT ON. <br/>
+   <input  type="radio" name="thirdQuestion" value="false"/>DESCRIBE. 
+
+
+  <h4>4-For more complex procedures and functions involving iteration through multiple rows, PL/SQL supports: </h4>
+
+   <input  type="radio" name="fourthQuestion" value="false"/>Explicit cursors. <br/>
+   <input  type="radio" name="fourthQuestion" value="false"/>Implicit cursors.  <br/>
+   <input  type="radio" name="fourthQuestion" value="true"/>All of the above.
+
+  <h4>5-Which of the following is not a common cursor attribute?</h4>
+
+   <input  type="radio" name="fifthQuestion" value="false"/>%IsOpen. <br/>
+   <input  type="radio" name="fifthQuestion" value="true"/>%IsNotOpen.  <br/>
+   <input  type="radio" name="fifthQuestion" value="false"/>%Found.
+
+  <h4>6-In a stored procedure, when specifying a string parameter you should use which of these data types: </h4>
+
+   <input  type="radio" name="sixthQuestion" value="false"/>CHAR<br/>
+   <input  type="radio" name="sixthQuestion" value="false"/>Text.<br/>
+   <input  type="radio" name="sixthQuestion" value="true"/>VARCHAR2
+
+  <h4>7-Which of the following is not an iteration statement supported by PL/SQL: </h4>
+
+   <input  type="radio" name="seventhQuestion" value="false"/>The FOR LOOP statement<br/>
+   <input  type="radio" name="seventhQuestion" value="true"/>The LOOP UNTIL statement <br/>
+   <input  type="radio" name="seventhQuestion" value="false"/>The WHILE LOOP statement. 
+
+  <h4>8- A __________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data. "</h4>
+
+   <input  type="radio" name="eighthQuestion" value="false"/>Procedures. <br/>
+   <input  type="radio" name="eighthQuestion" value="true"/>Triggers.  <br/>
+   <input  type="radio" name="eighthQuestion" value="false"/>Functions.
+
+  <h4>9-Trigger are supported in  </h4>
+
+   <input  type="radio" name="ninthQuestion" value="false"/>Delete. <br/>
+   <input  type="radio" name="ninthQuestion" value="false"/>Update.  <br/>
+   <input  type="radio" name="ninthQuestion" value="true"/>Views.
+
+  <h4>10-Which of the following is/are advantages of packages? </h4>
+
+   <input  type="radio" name="tenthQuestion" value="false"/>Packages avoid name clashes. <br/>
+   <input  type="radio" name="tenthQuestion" value="false"/>We can have hidden classes that are used by the packages, but not visible outside<br/>
+   <input  type="radio" name="tenthQuestion" value="true"/>" A and B ".
+
+   <br>
+<br/>
+
+<button type="button" onclick="submitted()">Submit answers</button>
+
+
+   <p id="firstParagraph"></p>
+   <p id="secondParagraph"></p>
+
+</div>
+
+<script>
+    
+
+var firstQuestion   = document.getElementsByName("firstQuestion"  );
+var secondQuestion  = document.getElementsByName("secondQuestion" );
+var thirdQuestion   = document.getElementsByName("thirdQuestion"  );
+var fourthQuestion  = document.getElementsByName("fourthQuestion" );
+var fifthQuestion   = document.getElementsByName("fifthQuestion"  );
+var sixthQuestion   = document.getElementsByName("sixthQuestion"  );
+var seventhQuestion = document.getElementsByName("seventhQuestion");
+var eighthQuestion  = document.getElementsByName("eighthQuestion" );
+var ninthQuestion   = document.getElementsByName("ninthQuestion"  );
+var tenthQuestion   = document.getElementsByName("tenthQuestion"  );
+
+
+var myArry =[firstQuestion,secondQuestion,thirdQuestion,fourthQuestion, fifthQuestion , sixthQuestion , seventhQuestion ,eighthQuestion  ,ninthQuestion ,tenthQuestion];
+var score = 0;
+var firstParagraph = document.getElementById("firstParagraph");
+var secondParagraph = document.getElementById("secondParagraph");
+
+
+function submitted() {
+firstParagraph.innerHTML = "";
+score = 0;
+
+    for(var i = 0;i<myArry.length;i++) {
+        for(var o = 0;o<firstQuestion.length; o++) {
+            if(myArry[i][o].value == "true" && myArry[i][o].checked) {
+                firstParagraph.innerHTML += "You got question " + (i + 1) + "  correct!<br>";
+                score++;
+            } 
+   else if(myArry[i][o].checked &&myArry[i][o].value == "false" ){
+    firstParagraph.innerHTML += "You got question " + (i + 1) + " wrong!<br>"; //(i+1)because index start with zero
+    }
+        }
+    }
+
+ var showScore = ((score/10)*100) ;
+    if (showScore>50){             
+         secondParagraph.innerHTML =" Your score is "+ showScore + "%"+" Good work! ";}
+    else if(showScore<=50){
+        secondParagraph.innerHTML =" Your score is "+ showScore + "%"+" You should get more practise! ";
+    
+    }
+    
+}
+document.write("<br/>");
+</script>
+         <section class="t">
+            <script>
+             
+var today = new Date();
+  var day = today.getDay();
+  var alldays = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  document.write("Today is: " + alldays[day] +"<br>");
+  var hour = today.getHours();
+  var mint = today.getMinutes();
+  var sec = today.getSeconds();
+  var prep = (hour >= 12)? " PM ":" AM ";
+  hour = (hour >= 12)? hour - 12: hour;
+  if (hour===0 && prep===' PM ') 
+  {
+  hour=12;
+  prep=' PM';
+  }   
+  if (hour===0 && prep===' AM ') { 
+  hour=12;
+  prep=' AM';}
+document.write( "Current Time is: "+hour + prep + " : " + mint + " : " + sec);
+</script> 
+    </section>
+  
+<footer><p>&copy;WebSite.edu.2018.Level6 </p></footer>
+</body>
+</html>
+
+
+

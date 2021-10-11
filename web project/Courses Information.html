@@ -1,0 +1,108 @@
+  
+ <!DOCTYPE html> 
+<html lang ="en">
+        
+<head> 
+    <meta charset="UTF-8">
+    <title>Cuorses information</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head> 
+<body>
+    <header>
+
+     <h1>Cuorses information</h1>
+
+   <h2>You can find here the information about Cuorses.</h2>
+
+      </header>        
+<nav>
+    <div> <a href="Home%20page.html">Home</a>
+    
+    </div>
+     <div> <a href="Courses%20Information.html">Cuorses information</a>
+      
+    </div>
+    <div> <a >Wep application development1</a>
+      <div>  <a href="Wep%20Application%20Development1%20slides.html">Slides</a> <a href="Wep%20application%20development1%20videos.html">Video tutorual</a> <a href="WebQZ.html">Quizzes</a> <a href="Wep%20application%20development1%20books.html">Books</a> </div>   
+    </div> 
+          
+    <div> <a>System analysis and design </a>
+     <div> 
+        <a href="System%20analysis%20and%20design%20slides.html">Slides</a> <a href="System%20analysis%20and%20design%20videos.htm">Video tutorual</a> <a href="AnQZ.html">Quizzes</a> <a href="System%20analysis%20and%20design%20books.html">Books</a> </div>
+    </div>
+    <div> <a>Database2</a>
+     <div> <a href="Data%20base2%20slides.html">Slides</a> <a href="Data%20base2%20videos.html">Video tutorual</a> <a href="dataQZ.html">Quizzes</a> <a href="Data%20base2%20books.html">Books</a> </div>
+    </div>
+    <div> <a href="contact.html">Connect us</a>
+     
+    </div>
+          <div> <a href="About%20us.html">About us</a></div>
+
+  </nav>
+    <br/>
+    <br/>
+    <br/>
+<table> 
+    <caption>Cuorses information:</caption> 
+  <tr>
+    <th>Cuorse Name</th>
+    <th>Code</th>
+    <th>Number</th>
+    <th>Hours</th>
+  <th>Cuorse Requirements</th>
+  </tr>
+    
+  <tr>
+    <td>Wep application development 1</td>
+       <td>IS</td>
+    <td>242</td>
+        <td>4</td>
+ <td>Web Application Development 2, E-Commerce</td>
+</tr>
+  <tr>
+    <td>System analysis and design</td>
+    <td>IS</td>
+    <td>244</td>
+    <td>4</td>
+        <td>Management of information systems projects, Structure and institutional strategies</td>
+    
+  </tr>
+  <tr>
+    <td> Data base 2</td>
+    <td>IS</td>
+     <td>252</td>
+    <td>4</td>
+        <td>Data warehouse and prospecting, Financial Accounting Principles, Entrepreneurship and small business management </td>
+</tr>
+
+
+
+</table>
+        <section class="t">
+           <script>
+var today = new Date();
+  var day = today.getDay();
+  var alldays = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  document.write("Today is: " + alldays[day] +"<br>");
+  var hour = today.getHours();
+  var mint = today.getMinutes();
+  var sec = today.getSeconds();
+  var prep = (hour >= 12)? " PM ":" AM ";
+  hour = (hour >= 12)? hour - 12: hour;
+  if (hour===0 && prep===' PM ') 
+  {
+  hour=12;
+  prep=' PM';
+  }   
+  if (hour===0 && prep===' AM ') { 
+  hour=12;
+  prep=' AM';}
+document.write( "Current Time is: "+hour + prep + " : " + mint + " : " + sec);
+</script>
+    </section>
+
+
+<footer><p>&copy;WebSite.edu.2018.Level6 </p></footer>
+    </body>
+</html>
+    

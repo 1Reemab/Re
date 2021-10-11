@@ -1,0 +1,117 @@
+ <!DOCTYPE html> 
+<html lang ="en">
+
+<head>
+    <title>Contact us</title>
+    <meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="css.css">
+</head> 
+<body>
+    <header>
+
+     <h1>Contact us</h1>
+
+   <h2>You can write some comment here.</h2>
+
+      </header>
+           <nav>
+    <div> <a href="Home%20page.html">Home</a>
+    
+    </div>
+     <div> <a href="Courses%20Information.html">Cuorses information</a>
+      
+    </div>
+    <div> <a >Wep application development 1</a>
+      <div>  <a href="Wep%20Application%20Development1%20slides.html">Slides</a> <a href="Wep%20application%20development1%20videos.html">Video tutorual</a> <a href="WebQZ.html">Quizzes</a> <a href="Wep%20application%20development1%20books.html">Books</a> </div>   
+    </div> 
+          
+    <div> <a>System analysis and design </a>
+     <div> 
+        <a href="System%20analysis%20and%20design%20slides.html">Slides</a> <a href="System%20analysis%20and%20design%20videos.htm">Video tutorual</a> <a href="AnQZ.html">Quizzes</a> <a href="System%20analysis%20and%20design%20books.html">Books</a> </div>
+    </div>
+    <div> <a>Database2</a>
+     <div> <a href="Data%20base2%20slides.html">Slides</a> <a href="Data%20base2%20videos.html">Video tutorual</a> <a href="dataQZ.html">Quizzes</a> <a href="Data%20base2%20books.html">Books</a> </div>
+    </div>
+    <div> <a href="contact.html">Connect us</a>
+     
+    </div>
+          <div> <a href="About%20us.html">About us</a></div>
+
+  </nav>
+        <br/>
+            <br/>
+            <br/>
+    <script>  
+        function Vmssg(){
+          var a=  document.forms["contact-form"]['message'].value;
+            if (a==""){
+                alert('You should write your message! ');
+                return false;
+            }
+        }
+    </script>
+       <center>
+<form action="contact.php" name="contact-form" method="post" onsubmit="return Vmssg();">
+  
+    <h2>Contact Form:</h2>
+ <h3> Wirte something make our wepsite better!</h3>
+
+      
+Your name:<input id="name" type="text" name="name" placeholder="Enter your name"/>
+
+Gender:
+    <br/>
+
+<input id="f" type="radio" name="Gender" value="Female"  checked> Female 
+        <input id="m" type="radio" name="Gender" value="male" /> male 
+    <br/>
+
+
+      Email:<input id="email" type="text" name="email" placeholder="Ex:a@gmail.com" />
+
+    Subject:<input id="subject" type="text" name="subject" placeholder="Wite the subject here"/>
+
+  Message:<textarea id="message" name="message" placeholder="Write your massage here" cols="65" rows="13"></textarea>
+    <BR/>
+
+              <input  id="submit" type="submit" value="Send" />
+    <br/>
+      
+<input type="reset" value="Reset" id="Reset"> 
+</form>
+           </center>
+     
+<br/>
+        <section class="t">
+            
+                         <script>
+             
+var today = new Date();
+  var day = today.getDay();
+  var alldays = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  document.write("Today is: " + alldays[day] +"<br>");
+  var hour = today.getHours();
+  var mint = today.getMinutes();
+  var sec = today.getSeconds();
+  var prep = (hour >= 12)? " PM ":" AM ";
+  hour = (hour >= 12)? hour - 12: hour;
+  if (hour===0 && prep===' PM ') 
+  {
+  hour=12;
+  prep=' PM';
+  }   
+  if (hour===0 && prep===' AM ') { 
+  hour=12;
+  prep=' AM';}
+document.write( "Current Time is: "+hour + prep + " : " + mint + " : " + sec);
+
+</script>
+    </section>
+<footer><p>&copy;WebSite.edu.2018.Level6</p></footer>
+    </body>
+</html>
+
+
+
+ 

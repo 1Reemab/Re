@@ -1,0 +1,192 @@
+
+ 
+ <!DOCTYPE html> 
+<html lang ="en">
+        
+<head> 
+    <title>Wep application development1 Quiz</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head> 
+<body>
+     <header>
+
+     <h1>Wep application development1 Quiz</h1>
+
+   <h2>You can here start the quiz about this mterial.</h2>
+
+      </header>
+           <nav>
+    <div> <a href="Home%20page.html">Home</a>
+    
+    </div>
+     <div> <a href="Courses%20Information.html">Cuorses information</a>
+      
+    </div>
+    <div> <a >Wep application development1</a>
+      <div>  <a href="Wep%20Application%20Development1%20slides.html">Slides</a> <a href="Wep%20application%20development1%20videos.html">Video tutorual</a> <a href="WebQZ.html">Quizzes</a> <a href="Wep%20application%20development1%20books.html">Books</a> </div>   
+    </div> 
+          
+    <div> <a>System analysis and design </a>
+     <div> 
+        <a href="System%20analysis%20and%20design%20slides.html">Slides</a> <a href="System%20analysis%20and%20design%20videos.htm">Video tutorual</a> <a href="AnQZ.html">Quizzes</a> <a href="System%20analysis%20and%20design%20books.html">Books</a> </div>
+    </div>
+    <div> <a>Database2</a>
+     <div> <a href="Data%20base2%20slides.html">Slides</a> <a href="Data%20base2%20videos.html">Video tutorual</a> <a href="dataQZ.html">Quizzes</a> <a href="Data%20base2%20books.html">Books</a> </div>
+    </div>
+    <div> <a href="contact.html">Connect us</a>
+     
+    </div>
+          <div> <a href="About%20us.html">About us</a></div>
+
+  </nav>
+     <br/> <br/>
+   <div class="QZ">
+<h2 class="qh">Read the questions and choose the correct answer from the options:</h2>
+       <br/>
+  <h4>1-What is the difference between HTML and CSS? </h4>
+    <input  type="radio"  name="firstQuestion" value="true"/>HTML deals with the function of the site and CSS the form.<br/>
+    <input  type="radio" name="firstQuestion" value="false"/>CSS deals with the function of the site and HTML the form.  <br/>
+    <input  type="radio" name="firstQuestion" value="false"/>CSS is a markup language unlike HTML 
+
+  <h4>2-Why is it good practice to write comments in your code?</h4>
+
+   <input  type="radio" name="secondQuestion" value="false"/>for others to understand your code. <br/>
+   <input  type="radio" name="secondQuestion" value="false"/>to understand your code when you come back to it.<br/>
+   <input  type="radio" name="secondQuestion" value="true"/>all of the above
+  
+  <h4>3-Inside table elements, what does text-align style? </h4>
+
+   <input type="radio" name="thirdQuestion" value="false"/>divs.<br/>
+   <input type="radio" name="thirdQuestion" value="true"/>text. <br/>
+   <input  type="radio" name="thirdQuestion" value="false"/>buttons
+
+  <h4>4-What is the correct syntax for writing comments in CSS? </h4>
+
+   <input  type="radio" name="fourthQuestion" value="false"/>// comment <br/>
+   <input  type="radio" name="fourthQuestion" value="true"/>/* comment */. <br/>
+   <input  type="radio" name="fourthQuestion" value="false"/>All options are valid.
+
+  <h4>5-Which of these answers contains invalid CSS?</h4>
+
+   <input  type="radio" name="fifthQuestion" value="false"/>margin: 10px 8px 5px;. <br/>
+   <input  type="radio" name="fifthQuestion" value="false"/>margin: -20px;.  <br/>
+   <input  type="radio" name="fifthQuestion" value="true"/>All answers are valid.
+
+  <h4>6-Which of the following property specifies the left padding of an element?</h4>
+
+   <input  type="radio" name="sixthQuestion" value="true"/>padding-left <br/>
+   <input  type="radio" name="sixthQuestion" value="false"/>padding-top  <br/>
+   <input  type="radio" name="sixthQuestion" value="false"/>padding-bottom.
+
+  <h4>7-Which is NOT a way to create a loop in javascript?</h4>
+
+   <input  type="radio" name="seventhQuestion" value="false"/>for (...) { }. <br/>
+   <input  type="radio" name="seventhQuestion" value="false"/>do { } while(...). <br/>
+   <input  type="radio" name="seventhQuestion" value="true"/>repeat (...) { }.
+
+  <h4>8-Which of the following variable types does not exist in JavaScript?</h4>
+
+   <input  type="radio" name="eighthQuestion" value="false"/>boolean. <br/>
+   <input  type="radio" name="eighthQuestion" value="true"/>double.  <br/>
+   <input  type="radio" name="eighthQuestion" value="false"/>object.
+
+  <h4>9-Which of these operators compares two variables by value AND type?</h4>
+
+   <input  type="radio" name="ninthQuestion" value="false"/>= .<br/>
+   <input  type="radio" name="ninthQuestion" value="false"/>= = .  <br/>
+   <input  type="radio" name="ninthQuestion" value="true" />= = = .
+
+  <h4>10-The number of forms that can be added to a aspx page is.... </h4>
+
+   <input  type="radio" name="tenthQuestion" value="true"/>1. <br/>
+   <input  type="radio" name="tenthQuestion" value="false"/>2.<br/>
+   <input  type="radio" name="tenthQuestion" value="false"/>More than 3.
+
+   <br>
+<br/>
+
+<button type="button" onclick="submitted()">Submit answers</button>
+
+
+   <p id="firstParagraph"></p>
+   <p id="secondParagraph"></p>
+</div>
+
+<script>
+
+
+var firstQuestion   = document.getElementsByName("firstQuestion"  );
+var secondQuestion  = document.getElementsByName("secondQuestion" );
+var thirdQuestion   = document.getElementsByName("thirdQuestion"  );
+var fourthQuestion  = document.getElementsByName("fourthQuestion" );
+var fifthQuestion   = document.getElementsByName("fifthQuestion"  );
+var sixthQuestion   = document.getElementsByName("sixthQuestion"  );
+var seventhQuestion = document.getElementsByName("seventhQuestion");
+var eighthQuestion  = document.getElementsByName("eighthQuestion" );
+var ninthQuestion   = document.getElementsByName("ninthQuestion"  );
+var tenthQuestion   = document.getElementsByName("tenthQuestion"  );
+
+
+var myArry =[firstQuestion,secondQuestion,thirdQuestion,fourthQuestion, fifthQuestion , sixthQuestion , seventhQuestion ,eighthQuestion  ,ninthQuestion ,tenthQuestion];
+var score = 0;
+var firstParagraph = document.getElementById("firstParagraph");
+var secondParagraph = document.getElementById("secondParagraph");
+
+
+function submitted() {
+firstParagraph.innerHTML = "";
+score = 0;
+
+    for(var i = 0;i<myArry.length;i++) {
+        for(var o = 0;o<firstQuestion.length; o++) {
+            if(myArry[i][o].value == "true" && myArry[i][o].checked) {
+                firstParagraph.innerHTML += "You got question " + (i + 1) + "  correct!<br>";
+                score++;
+            } 
+   else if(myArry[i][o].checked &&myArry[i][o].value == "false" ){
+    firstParagraph.innerHTML += "You got question " + (i + 1) + " wrong!<br>"; //(i+1)because index start with zero
+    }
+        }
+    }
+
+ var showScore = ((score/10)*100) ;
+    if (showScore>50){             
+         secondParagraph.innerHTML =" Your score is "+ showScore + "%"+" Good work! ";}
+    else if(showScore<=50){
+        secondParagraph.innerHTML =" Your score is "+ showScore + "%"+" You should get more practise! ";
+    
+    }
+    
+}
+document.write("<br/>");
+</script>
+         <section class="t">
+            <script>
+             
+var today = new Date();
+  var day = today.getDay();
+  var alldays = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  document.write("Today is: " + alldays[day] +"<br>");
+  var hour = today.getHours();
+  var mint = today.getMinutes();
+  var sec = today.getSeconds();
+  var prep = (hour >= 12)? " PM ":" AM ";
+  hour = (hour >= 12)? hour - 12: hour;
+  if (hour===0 && prep===' PM ') 
+  {
+  hour=12;
+  prep=' PM';
+  }   
+  if (hour===0 && prep===' AM ') { 
+  hour=12;
+  prep=' AM';}
+document.write( "Current Time is: "+hour + prep + " : " + mint + " : " + sec);
+</script> 
+    </section>
+  
+<footer><p>&copy;WebSite.edu.2018.Level6 </p></footer>
+</body>
+</html>
+
+
+

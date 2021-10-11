@@ -1,0 +1,199 @@
+
+ 
+ <!DOCTYPE html> 
+<html lang ="en">
+        
+<head> 
+    <title>System analysis and design Quiz</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head> 
+<body>
+     <header>
+
+     <h1>System analysis and design Quiz</h1>
+
+   <h2>You can here start the quiz about this mterial.</h2>
+
+      </header>
+            <nav>
+    <div> <a href="Home%20page.html">Home</a>
+    
+    </div>
+     <div> <a href="Courses%20Information.html">Cuorses information</a>
+      
+    </div>
+    <div> <a >Wep application development1</a>
+      <div>  <a href="Wep%20Application%20Development1%20slides.html">Slides</a> <a href="Wep%20application%20development1%20videos.html">Video tutorual</a> <a href="WebQZ.html">Quizzes</a> <a href="Wep%20application%20development1%20books.html">Books</a> </div>   
+    </div> 
+          
+    <div> <a>System analysis and design </a>
+     <div> 
+        <a href="System%20analysis%20and%20design%20slides.html">Slides</a> <a href="System%20analysis%20and%20design%20videos.htm">Video tutorual</a> <a href="AnQZ.html">Quizzes</a> <a href="System%20analysis%20and%20design%20books.html">Books</a> </div>
+    </div>
+    <div> <a>Database2</a>
+     <div> <a href="Data%20base2%20slides.html">Slides</a> <a href="Data%20base2%20videos.html">Video tutorual</a> <a href="dataQZ.html">Quizzes</a> <a href="Data%20base2%20books.html">Books</a> </div>
+    </div>
+    <div> <a href="contact.html">Connect us</a>
+     
+    </div>
+          <div> <a href="About%20us.html">About us</a></div>
+
+  </nav>
+     <br/> <br/>
+       <div class="QZ">
+<h2 class="qh">Read the questions and choose the correct answer from the options:</h2>
+<br/>
+  <h4>1-Which of these is an advantage of open-ended questions? </h4>
+    <input  type="radio"  name="firstQuestion" value="false"/>makes comparing interviews easier.<br/>
+    <input  type="radio" name="firstQuestion" value="true"/>allows more spontaneity.<br/>
+    <input  type="radio" name="firstQuestion" value="false"/>saves time
+
+  
+
+
+  <h4>2-Which kind of question is easiest to analyze?</h4>
+
+   <input  type="radio" name="secondQuestion" value="false"/>open.<br/>
+   <input  type="radio" name="secondQuestion" value="false"/>tactical <br/>
+   <input  type="radio" name="secondQuestion" value="true"/>closed
+
+  
+
+
+  <h4>3-What is a reference work of data about data compiled by systems analysts? </h4>
+
+   <input type="radio" name="thirdQuestion" value="false"/>data flow diagrams. <br/>
+   <input type="radio" name="thirdQuestion" value="true"/>data dictionary. <br/>
+   <input  type="radio" name="thirdQuestion" value="false"/>structured analysis
+
+
+  <h4>4-"A primitive process is :</h4>
+
+   <input  type="radio" name="fourthQuestion" value="false"/>a process that requires two or more data flow into it.  <br/>
+   <input  type="radio" name="fourthQuestion" value="false"/>the central process on a context level diagram.<br/>
+   <input  type="radio" name="fourthQuestion" value="true"/>a process that is not exploded to a child diagram. 
+
+  <h4>5-Data structures are described using ________ notation?</h4>
+
+   <input  type="radio" name="fifthQuestion" value="false"/>retional. <br/>
+   <input  type="radio" name="fifthQuestion" value="true"/>algebraic. <br/>
+   <input  type="radio" name="fifthQuestion" value="false"/>metadatic.
+
+  <h3>6-What does this symbol represent [ ]?</h3>
+
+   <input  type="radio" name="sixthQuestion" value="false"/>optional. <br/>
+   <input  type="radio" name="sixthQuestion" value="true"/>either/or alternative.  <br/>
+   <input  type="radio" name="sixthQuestion" value="false"/>iteration.
+
+  <h4>7-Which of the following symbols is not used on the context level data flow diagram?</h4>
+
+   <input  type="radio" name="seventhQuestion" value="false"/>arrow<br/>
+   <input  type="radio" name="seventhQuestion" value="true"/>triangle .<br/>
+   <input  type="radio" name="seventhQuestion" value="false"/>rectangle with rounded corners 
+
+  <h4>8-Physical data flow diagrams:</h4>
+
+   <input  type="radio" name="eighthQuestion" value="false"/>enable the analyst to better understand the business.<br/>
+   <input  type="radio" name="eighthQuestion" value="true"/>include processes for adding, updating, changing and deleting records.  <br/>
+   <input  type="radio" name="eighthQuestion" value="false"/>are used to model business events, along with their input and output.
+
+  <h4>9-If a decision maker has trade journals and newspaper clippings about other companies, they tend to work with:</h4>
+
+   <input  type="radio" name="ninthQuestion" value="false"/>detailed corporate information. <br/>
+   <input  type="radio" name="ninthQuestion" value="false"/>internal information.  <br/>
+   <input  type="radio" name="ninthQuestion" value="true" />external information.
+
+  <h4>10-Which of these statements about PERT diagrams is not true?</h4>
+
+   <input  type="radio" name="tenthQuestion" value="false"/>An arrow represents activities. <br/>
+   <input  type="radio" name="tenthQuestion" value="false"/>A circle represents events. <br/>
+   <input  type="radio" name="tenthQuestion" value="true"/>The length of the arrow indicates activity length.
+
+   <br>
+<br/>
+
+<button type="button" onclick="submitted()">Submit answers</button>
+
+
+   <p id="firstParagraph"></p>
+   <p id="secondParagraph"></p>
+</div>
+<script>
+  
+
+
+var firstQuestion   = document.getElementsByName("firstQuestion"  );
+var secondQuestion  = document.getElementsByName("secondQuestion" );
+var thirdQuestion   = document.getElementsByName("thirdQuestion"  );
+var fourthQuestion  = document.getElementsByName("fourthQuestion" );
+var fifthQuestion   = document.getElementsByName("fifthQuestion"  );
+var sixthQuestion   = document.getElementsByName("sixthQuestion"  );
+var seventhQuestion = document.getElementsByName("seventhQuestion");
+var eighthQuestion  = document.getElementsByName("eighthQuestion" );
+var ninthQuestion   = document.getElementsByName("ninthQuestion"  );
+var tenthQuestion   = document.getElementsByName("tenthQuestion"  );
+
+
+var myArry =[firstQuestion,secondQuestion,thirdQuestion,fourthQuestion, fifthQuestion , sixthQuestion , seventhQuestion ,eighthQuestion  ,ninthQuestion ,tenthQuestion];
+var score = 0;
+var firstParagraph = document.getElementById("firstParagraph");
+var secondParagraph = document.getElementById("secondParagraph");
+
+
+function submitted() {
+firstParagraph.innerHTML = "";
+score = 0;
+
+    for(var i = 0;i<myArry.length;i++) {
+        for(var o = 0;o<firstQuestion.length; o++) {
+            if(myArry[i][o].value == "true" && myArry[i][o].checked) {
+                firstParagraph.innerHTML += "You got question " + (i + 1) + "  correct!<br>";
+                score++;
+            } 
+   else if(myArry[i][o].checked &&myArry[i][o].value == "false" ){
+    firstParagraph.innerHTML += "You got question " + (i + 1) + " wrong!<br>"; //(i+1)because index start with zero
+    }
+        }
+    }
+
+ var showScore = ((score/10)*100) ;
+    if (showScore>50){             
+         secondParagraph.innerHTML =" Your score is "+ showScore + "%"+" Good work! ";}
+    else if(showScore<=50){
+        secondParagraph.innerHTML =" Your score is "+ showScore + "%"+" You should get more practise! ";
+    
+    }
+    
+}
+document.write("<br/>");
+</script>
+         <section class="t">
+            <script>
+             
+var today = new Date();
+  var day = today.getDay();
+  var alldays = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  document.write("Today is: " + alldays[day] +"<br>");
+  var hour = today.getHours();
+  var mint = today.getMinutes();
+  var sec = today.getSeconds();
+  var prep = (hour >= 12)? " PM ":" AM ";
+  hour = (hour >= 12)? hour - 12: hour;
+  if (hour===0 && prep===' PM ') 
+  {
+  hour=12;
+  prep=' PM';
+  }   
+  if (hour===0 && prep===' AM ') { 
+  hour=12;
+  prep=' AM';}
+document.write( "Current Time is: "+hour + prep + " : " + mint + " : " + sec);
+</script> 
+    </section>
+  
+<footer><p>&copy;WebSite.edu.2018.Level6 </p></footer>
+</body>
+</html>
+
+
+
